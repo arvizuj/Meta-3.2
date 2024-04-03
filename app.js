@@ -13,7 +13,7 @@ app.use('/responsables', responsablesRouter);
 app.use('/ubicaciones', ubicacionesRouter);
 
 app.get('/', (req, res) => {
-    res.send('Meta 3.1 Implementar servicio de web REST')
+    res.send('Meta 3.2 Implementar servicio de web REST usando rutas')
 });
 
 app.listen(port, () => {
