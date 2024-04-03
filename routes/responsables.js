@@ -6,7 +6,7 @@ router.get('/', responsablesController.obtenerDatos);
 
 router.get('/id:id', responsablesController.obtenerPorId);
 
-router.get('/numEmpleado:numEmpleado', responsablesController.obtenerPorNumeroEmpleado);
+router.get('/numEmpleado:num', responsablesController.obtenerPorNumeroEmpleado);
 
 router.post('/', responsablesController.agregarResponsable);
 
